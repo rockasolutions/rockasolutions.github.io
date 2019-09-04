@@ -771,7 +771,7 @@ button:focus {
 }
 
 .lab_banner_area .banner_inner .overlay {
-  background: url(../img/banner/lab.jpg) no-repeat scroll center center;
+  background: url(../img/banner/laboratory.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -4290,9 +4290,7 @@ h6 {
 .offer_item .offer_text {
   text-align: center;
   border: 1px solid #eeeeee;
-  padding: 50px 30px 50px 30px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  padding: 20px 0px 5px 0px;
 }
 
 .offer_item .offer_text h4 {
@@ -4307,9 +4305,9 @@ h6 {
 }
 
 .offer_item:hover .offer_text {
-  background-image: -moz-linear-gradient(90deg, #4C4843 0%, #393937 100%);
-  background-image: -webkit-linear-gradient(90deg, #4C4843 0%, #393937 100%);
-  background-image: -ms-linear-gradient(90deg, #4C4843 0%, #393937 100%);
+  background-image: -moz-linear-gradient(90deg, #000019 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(90deg, #000019 0%, #000000 100%);
+  background-image: -ms-linear-gradient(90deg, #000019 0%, #000000 100%);
 }
 
 .offer_item:hover .offer_text h4 {
@@ -4740,7 +4738,9 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: #222222;
+  background-image: -moz-linear-gradient(90deg, #000019 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(90deg, #000019 0%, #000000 100%);
+  background-image: -ms-linear-gradient(90deg, #000019 0%, #000000 100%);
   padding-top: 120px;
 }
 
@@ -4844,6 +4844,10 @@ h6 {
   padding-bottom: 25px;
 }
 
+.footer-bottom .footer-text {
+  color: #000;
+}
+
 .footer-bottom .footer-text a {
   color: #000;
 }
@@ -4863,7 +4867,7 @@ h6 {
 }
 
 .footer-bottom .footer-social a:hover {
-  color: #8d83ff;
+  color: #000;
 }
 
 /*---------------------------------------------------- */
