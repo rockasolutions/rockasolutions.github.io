@@ -835,7 +835,7 @@ button:focus {
 }
 
 .machinery_banner_area .banner_inner .overlay {
-  background: url(../img/banner/generic.jpg) no-repeat scroll center center;
+  background: url(../img/banner/machinery.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -963,7 +963,7 @@ button:focus {
 }
 
 .tapes_banner_area .banner_inner .overlay {
-  background: url(../img/banner/generic.jpg) no-repeat scroll center center;
+  background: url(../img/banner/tapes.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
