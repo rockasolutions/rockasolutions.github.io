@@ -325,8 +325,8 @@
 }
 @media (max-width:575px){
 	.home_banner_area .banner_inner .overlay {
-	  background: url(../img/banner/b-home-banner-1300-2.png) no-repeat scroll center center;
-	  background-size: 575px,271px;
+	  background: url(../img/banner/b-home-banner-H.png) no-repeat scroll center center;
+	  background-size: 575px;
 	  position: absolute;
 	  left: 0;
 	  right: 0;
@@ -347,10 +347,10 @@
 		font-size: 28px;
 	}
 	.home_banner_area {
-		min-height: 500px;
+		min-height: 900px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 500px;
+		min-height: 900px;
 	}
 	.blog_banner .banner_inner .blog_b_text {
 		margin-top: 0px;
