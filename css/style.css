@@ -443,12 +443,12 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .overlay {
-  background: url(../img/banner/home-banner-2.jpg) no-repeat scroll center center;
+  background: url(../img/banner/b-home-banner-1920.png) repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  height: 121%;
+  height: 110%;
   bottom: 0;
   z-index: -1;
 }
