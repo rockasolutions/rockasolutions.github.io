@@ -10,14 +10,7 @@
 @media (max-width:1300px){
 
 			.home_banner_area .banner_inner .overlay {
-  background: url(../img/banner/b-home-banner-1300-2.png) no-repeat scroll center center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 100%;
-  bottom: 0;
-  z-index: -1;
+  background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
 }
 
 }
@@ -115,14 +108,9 @@
     }
 
     .home_banner_area .banner_inner .overlay {
-	  background: url(../img/banner/b-home-banner-990-2.png) no-repeat scroll center center;
-	  position: absolute;
-	  left: 0;
-	  right: 0;
-	  top: 0;
-	  height: 100%;
-	  bottom: 0;
-	  z-index: -1;
+	  background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
+	  background-size: 990px;
+
 	}
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 117px;
@@ -248,15 +236,8 @@
 }
 @media (max-width:767px){
 	.home_banner_area .banner_inner .overlay {
-	  background: url(../img/banner/b-home-banner-1300-2.png) no-repeat scroll center center;
-	  background-size: 797px,362px;
-	  position: absolute;
-	  left: 0;
-	  right: 0;
-	  top: 0;
-	  height: 100%;
-	  bottom: 0;
-	  z-index: -1;
+	  background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
+	  background-size: 797px;
 	}
 	.home_banner_area {
 		min-height: 500px;
@@ -327,13 +308,6 @@
 	.home_banner_area .banner_inner .overlay {
 	  background: url(../img/banner/b-home-banner-H.png) no-repeat scroll center center;
 	  background-size: 575px;
-	  position: absolute;
-	  left: 0;
-	  right: 0;
-	  top: 0;
-	  height: 100%;
-	  bottom: 0;
-	  z-index: -1;
 	}
 	.top_menu {
 		display: none;
