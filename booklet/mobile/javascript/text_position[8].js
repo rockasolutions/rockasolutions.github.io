@@ -1,1 +1,0 @@
-﻿positionForPages[8]={page:8,positions:[{word:"www",left:0.361088,top:0.972450,width:0.051451,height:0.018863},{word:"ROCKA",left:0.418264,top:0.971875,width:0.073686,height:0.019651},{word:"solutions",left:0.494696,top:0.972450,width:0.079627,height:0.018863},{word:"com",left:0.578480,top:0.972450,width:0.039490,height:0.018863}]};
