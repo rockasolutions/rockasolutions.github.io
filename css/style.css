@@ -53,6 +53,12 @@ Table of Content:
     width: 100%;
 }
 
+@media (max-width:575px){
+  .slick-slide img {
+    width: 120%;
+}
+  }
+
 .slick-slider
 {
     position: relative;
