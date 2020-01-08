@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <!-- Required meta tags -->
@@ -10,13 +10,16 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+
+<link rel="stylesheet" type="text/css" href="css/style.css" rel="stylesheet" type="text/css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+
+
     </head>
     <body>
         
@@ -71,6 +74,48 @@
         </section>
         <!--================End Home Banner Area =================-->
 
+        <div class="container">
+            <div class="main_title">
+                <br>
+                <h2><br><br>Our Principals</h2>
+            </div>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="img/logos/rocka+vantage.png"></div>
+                <div class="slide"><img src="img/logos/rocka+indium.png"></div>
+                <div class="slide"><img src="img/logos/rocka+3m.png"></div>
+                <div class="slide"><img src="img/logos/rocka+superior.png"></div>
+                <div class="slide"><img src="img/logos/rocka+vibratite.png"></div>
+                <div class="slide"><img src="img/logos/rocka+koki.png"></div>
+                <div class="slide"><img src="img/logos/rocka+nathan.png"></div>
+                <div class="slide"><img src="img/logos/rocka+csi.png"></div>
+            </section>
+        </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
+
          <!--================Home Contact Area =================-->
         <section class="home_contact_area">
             <div class="left_img">
@@ -89,8 +134,8 @@
         <section class="offer_area p_120">
             <div class="container">
                 <div class="offer_title">
-                    <h5>· · Our Philosophy · ·</h5>
-                    <p>We  focus on building <b>strong and long relationships</b> with our employees and customers.</p>
+                    <h2>Our Philosophy</h2>
+                    <p><br>We  focus on building <b>strong and long relationships</b> with our employees and customers.</p>
                     <p><br>They are the <b>pillars</b> of our organization.</p>
                 </div>
                 <div class="main_title">
@@ -225,7 +270,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+        <!--<script src="js/jquery-3.2.1.min.js"></script> This JS doesn't let the slider work-->
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/stellar.js"></script>
