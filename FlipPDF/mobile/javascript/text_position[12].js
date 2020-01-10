@@ -1,0 +1,1 @@
+﻿positionForPages[12]={page:12,positions:[{word:"www",left:0.048297,top:0.474434,width:0.051980,height:0.019549},{word:"rockasolutions",left:0.105333,top:0.474434,width:0.135082,height:0.019549},{word:"com",left:0.245471,top:0.474434,width:0.039224,height:0.019549}]};
