@@ -448,12 +448,13 @@ button:focus {
 }
 
 .mid_banner_area .banner_inner .overlay {
-  background: url(../img/banner/b-mid-banner-1920.jpg) no-repeat scroll center center;
+  background: url(../img/banner/b-mid-banner.jpg) no-repeat scroll center center;
+  padding-top: 40%;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  height: 170%;
+  height: 110%;
   bottom: 0;
   z-index: -1;
 }
