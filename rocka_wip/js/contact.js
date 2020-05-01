@@ -22,7 +22,7 @@ $(document).ready(function(){
                 },
                 number: {
                     required: true,
-                    minlength: 5
+                    minlength: 10
                 },
                 email: {
                     required: true,
@@ -30,27 +30,27 @@ $(document).ready(function(){
                 },
                 message: {
                     required: true,
-                    minlength: 20
+                    minlength: 5
                 }
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Please write your name",
+                    minlength: "Your name must consist of at least 2 characters"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Please write a subject",
+                    minlength: "Your subject must consist of at least 4 characters"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "Please write a number",
+                    minlength: "Your Number must consist of at least 10 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Please write your email so we can follow up with you"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
+                    required: "How can we help you? Write it on the form so we can follow up with you",
                     minlength: "thats all? really?"
                 }
             },

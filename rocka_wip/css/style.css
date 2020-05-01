@@ -636,6 +636,17 @@ button:focus {
   min-height: 800px;
 }
 
+.home_banner_area .banner_inner .overlay_adhesive {
+  background: url(../img/banner/adhesive.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 110%;
+  bottom: 0;
+  z-index: -1;
+}
+
 .home_banner_area .banner_inner .overlay {
   background: url(../img/banner/b-home-banner-1920.png) no-repeat scroll center center;
   position: absolute;
@@ -1012,24 +1023,24 @@ button:focus {
 
 /* ============================================================================================ */
 
-/* Supply Banner Area css
+/* supplies Banner Area css
 ============================================================================================ */
 
-.supply_banner_area {
+.supplies_banner_area {
   position: relative;
   z-index: 1;
   min-height: 400px;
 }
 
-.supply_banner_area .banner_inner {
+.supplies_banner_area .banner_inner {
   position: relative;
   overflow: hidden;
   width: 100%;
   min-height: 400px;
 }
 
-.supply_banner_area .banner_inner .overlay {
-  background: url(../img/banner/supply.jpg) no-repeat scroll center center;
+.supplies_banner_area .banner_inner .overlay {
+  background: url(../img/banner/supplies.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -1039,11 +1050,11 @@ button:focus {
   z-index: -1;
 }
 
-.supply_banner_area .banner_inner .banner_content {
+.supplies_banner_area .banner_inner .banner_content {
   color: #fff;
 }
 
-.supply_banner_area .banner_inner .banner_content h5 {
+.supplies_banner_area .banner_inner .banner_content h5 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -1053,7 +1064,7 @@ button:focus {
   letter-spacing: 2.1px;
 }
 
-.supply_banner_area .banner_inner .banner_content h3 {
+.supplies_banner_area .banner_inner .banner_content h3 {
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -1062,7 +1073,7 @@ button:focus {
   margin-bottom: 25px;
 }
 
-.supply_banner_area .banner_inner .banner_content p {
+.supplies_banner_area .banner_inner .banner_content p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
@@ -1071,7 +1082,7 @@ button:focus {
   margin: auto;
 }
 
-.supply_banner_area .banner_inner .banner_content .org_btn {
+.supplies_banner_area .banner_inner .banner_content .org_btn {
   margin-right: 10px;
   margin-top: 45px;
 }
@@ -1143,24 +1154,24 @@ button:focus {
   margin-top: 45px;
 }
 
-/* Machinery Banner Area css
+/* equipment Banner Area css
 ============================================================================================ */
 
-.machinery_banner_area {
+.equipment_banner_area {
   position: relative;
   z-index: 1;
   min-height: 400px;
 }
 
-.machinery_banner_area .banner_inner {
+.equipment_banner_area .banner_inner {
   position: relative;
   overflow: hidden;
   width: 100%;
   min-height: 400px;
 }
 
-.machinery_banner_area .banner_inner .overlay {
-  background: url(../img/banner/machinery.jpg) no-repeat scroll center center;
+.equipment_banner_area .banner_inner .overlay {
+  background: url(../img/banner/equipment.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -1170,11 +1181,11 @@ button:focus {
   z-index: -1;
 }
 
-.machinery_banner_area .banner_inner .banner_content {
+.equipment_banner_area .banner_inner .banner_content {
   color: #fff;
 }
 
-.machinery_banner_area .banner_inner .banner_content h5 {
+.equipment_banner_area .banner_inner .banner_content h5 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -1184,7 +1195,7 @@ button:focus {
   letter-spacing: 2.1px;
 }
 
-.machinery_banner_area .banner_inner .banner_content h3 {
+.equipment_banner_area .banner_inner .banner_content h3 {
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -1193,7 +1204,7 @@ button:focus {
   margin-bottom: 25px;
 }
 
-.machinery_banner_area .banner_inner .banner_content p {
+.equipment_banner_area .banner_inner .banner_content p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
@@ -1202,7 +1213,7 @@ button:focus {
   margin: auto;
 }
 
-.machinery_banner_area .banner_inner .banner_content .org_btn {
+.equipment_banner_area .banner_inner .banner_content .org_btn {
   margin-right: 10px;
   margin-top: 45px;
 }
