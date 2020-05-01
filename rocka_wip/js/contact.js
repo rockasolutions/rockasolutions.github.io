@@ -20,10 +20,6 @@ $(document).ready(function(){
                     required: true,
                     minlength: 4
                 },
-                number: {
-                    required: true,
-                    minlength: 10
-                },
                 email: {
                     required: true,
                     email: true
@@ -42,16 +38,12 @@ $(document).ready(function(){
                     required: "Please write a subject",
                     minlength: "Your subject must consist of at least 4 characters"
                 },
-                number: {
-                    required: "Please write a number",
-                    minlength: "Your Number must consist of at least 10 characters"
-                },
                 email: {
                     required: "Please write your email so we can follow up with you"
                 },
                 message: {
                     required: "How can we help you? Write it on the form so we can follow up with you",
-                    minlength: "thats all? really?"
+                    minlength: "The more details the better"
                 }
             },
             submitHandler: function(form) {
