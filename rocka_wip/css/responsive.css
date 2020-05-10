@@ -10,12 +10,14 @@
 @media (max-width:1300px){
 	.home_banner_area .banner_inner .overlay {
   		background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
+
 }
 @media (max-width:1199px){
 	/* Main Menu Area css
 	============================================================================================ */
 	.header_area .navbar .nav .nav-item {
-		margin-right: 28px;
+		margin-right: 20px;
+		letter-spacing: -0.5px;
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
@@ -62,10 +64,6 @@
 @media (max-width:991px){
 	/* Main Menu Area css
 	============================================================================================ */
-	.home_banner_area .banner_inner .overlay {
-  		background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
-  		background-size: 991px;
-  	}
     .navbar-toggler {
         border: none;
         border-radius: 0px;
@@ -144,6 +142,13 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
+	/* Banner Area
+	============================================================================================ */
+	.home_banner_area .banner_inner .overlay {
+  		background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
+  		background-size: 991px;
+  	}
+	
 	/* Blog page Area css
 	============================================================================================ */
 	.categories_post img{
