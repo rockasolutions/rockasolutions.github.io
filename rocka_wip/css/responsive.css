@@ -120,8 +120,8 @@
         display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
-		text-align: left !important;
-		margin-top: auto !important;
+		text-align: left !important; /*Conformal Coating*/
+		margin-top: auto !important; /*Conformal Coating*/
     }
     .header_area .navbar .search{
         margin-left: 0px;

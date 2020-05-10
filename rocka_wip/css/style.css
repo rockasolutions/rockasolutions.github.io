@@ -173,6 +173,10 @@ button:focus {
   margin-right: 30px;
 }
 
+.header_area .logo_h {
+  padding-left: -1000px;
+}
+
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 12px/100px "Roboto", sans-serif;
   text-transform: uppercase;
@@ -251,7 +255,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
-  line-height: 25px;
+  line-height: 45px;
   color: #222222;
   padding: 0px 30px;
   -webkit-transition: all 150ms linear;
