@@ -115,11 +115,13 @@
         padding: 0px;
     }
     .header_area .navbar .nav .nav-item .nav-link{
-        line-height: 40px;
+        line-height: 25px;
         margin-right: 0px;
         display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
+		text-align: left !important;
+		margin-top: auto !important;
     }
     .header_area .navbar .search{
         margin-left: 0px;
