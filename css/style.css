@@ -1,4 +1,4 @@
-/*----------------------------------------------------
+----------------------------------------------------
 @File: Default Styles
 @Author: Rocky Ahmed
 @URL: http://wethemez.com
@@ -44,129 +44,6 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-/* Slider */
-.slick-slide {
-    margin: 0px 15px;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
-@media (max-width:575px){
-  .slick-slide img {
-    width: 120%;
-}
-  }
-
-.slick-slider
-{
-    position: relative;
-    min-height: 300px;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-            user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
-.slick-slide
-{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-    height: auto;
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
-
 .list {
   list-style: none;
   margin: 0px;
@@ -210,7 +87,12 @@ button:focus {
 
 .p_120 {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
+}
+
+.p_60 {
+  padding-top: 0px;
+  padding-bottom: 60px;
 }
 
 .p0 {
@@ -286,8 +168,13 @@ button:focus {
   border-radius: 0px;
 }
 
+
 .header_area .navbar .nav .nav-item {
-  margin-right: 45px;
+  margin-right: 30px;
+}
+
+.header_area .logo_h {
+  padding-left: -1000px;
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
@@ -303,7 +190,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-  color: #888988;
+  color: #969696;
 }
 
 .header_area .navbar .nav .nav-item.submenu {
@@ -437,6 +324,7 @@ button:focus {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   -webkit-box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
@@ -550,6 +438,196 @@ button:focus {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+/* Mid Banner Area css
+============================================================================================ */
+.mid_banner_area {
+  position: relative;
+  z-index: 1;
+  min-height: 250px;
+}
+
+.mid_banner_area .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 250px;
+}
+
+.mid_banner_area .banner_inner .overlay {
+  background: url(../img/banner/b-mid-banner.jpg) no-repeat scroll center center;
+  padding-top: 40%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 110%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.mid_banner_area .banner_inner .banner_content {
+  color: #fff;
+}
+
+.mid_banner_area .banner_inner .banner_content h5 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  letter-spacing: 2.1px;
+}
+
+.mid_banner_area .banner_inner .banner_content h3 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.mid_banner_area .banner_inner .banner_content p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  max-width: 500px;
+  margin: auto;
+}
+
+.mid_banner_area .banner_inner .banner_content .org_btn {
+  margin-right: 10px;
+  margin-top: 45px;
+}
+
+.blog_banner {
+  min-height: 780px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.blog_banner .banner_inner {
+  background: #04091e;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 780px;
+  z-index: 1;
+}
+
+.blog_banner .banner_inner .overlay {
+  background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+  opacity: .5;
+  height: 125%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+.blog_banner .banner_inner .blog_b_text {
+  max-width: 700px;
+  margin: auto;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.blog_banner .banner_inner .blog_b_text h2 {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 66px;
+  margin-bottom: 15px;
+}
+
+.blog_banner .banner_inner .blog_b_text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.blog_banner .banner_inner .blog_b_text .white_bg_btn {
+  line-height: 42px;
+  padding: 0px 45px;
+}
+
+.banner_box {
+  max-width: 1620px;
+  margin: auto;
+}
+
+.banner_area {
+  position: relative;
+  z-index: 1;
+  min-height: 300px;
+}
+
+.banner_area .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 300px;
+  background-image: -moz-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -webkit-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -ms-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  z-index: 1;
+}
+
+.banner_area .banner_inner .overlay {
+  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 125%;
+  bottom: 0;
+  z-index: -1;
+  opacity: 1;
+}
+
+.banner_area .banner_inner .banner_content h2 {
+  color: #fff;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.banner_area .banner_inner .banner_content .page_link a {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  margin-right: 32px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:before {
+  content: "\f0da";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child {
+  margin-right: 0px;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child:before {
+  display: none;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:hover {
+  color: #8d83ff;
+}
+
+
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
@@ -563,6 +641,17 @@ button:focus {
   overflow: hidden;
   width: 100%;
   min-height: 800px;
+}
+
+.home_banner_area .banner_inner .overlay_adhesive {
+  background: url(../img/banner/adhesive.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 110%;
+  bottom: 0;
+  z-index: -1;
 }
 
 .home_banner_area .banner_inner .overlay {
@@ -611,6 +700,203 @@ button:focus {
   margin-right: 10px;
   margin-top: 45px;
 }
+
+.blog_banner {
+  min-height: 780px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.blog_banner .banner_inner {
+  background: #04091e;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 780px;
+  z-index: 1;
+}
+
+.blog_banner .banner_inner .overlay {
+  background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+  opacity: .5;
+  height: 125%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+
+.blog_banner .banner_inner .blog_b_text {
+  max-width: 700px;
+  margin: auto;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.blog_banner .banner_inner .blog_b_text h2 {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 66px;
+  margin-bottom: 15px;
+}
+
+.blog_banner .banner_inner .blog_b_text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.blog_banner .banner_inner .blog_b_text .white_bg_btn {
+  line-height: 42px;
+  padding: 0px 45px;
+}
+
+.banner_box {
+  max-width: 1620px;
+  margin: auto;
+}
+
+.banner_area {
+  position: relative;
+  z-index: 1;
+  min-height: 300px;
+}
+
+.banner_area .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 300px;
+  background-image: -moz-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -webkit-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -ms-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  z-index: 1;
+}
+
+.banner_area .banner_inner .overlay {
+  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 125%;
+  bottom: 0;
+  z-index: -1;
+  opacity: 1;
+}
+
+.banner_area .banner_inner .banner_content h2 {
+  color: #fff;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.banner_area .banner_inner .banner_content .page_link a {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  margin-right: 32px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:before {
+  content: "\f0da";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child {
+  margin-right: 0px;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child:before {
+  display: none;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:hover {
+  color: #8d83ff;
+}
+
+/* End Home Banner Area css
+============================================================================================ */
+
+/* Conformal Banner Area css
+============================================================================================ */
+
+.conformal_banner_area {
+  position: relative;
+  z-index: 1;
+  min-height: 400px;
+}
+
+.conformal_banner_area .banner_inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 400px;
+}
+
+.conformal_banner_area .banner_inner .overlay {
+  background: url(../img/banner/conformal.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 121%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.conformal_banner_area .banner_inner .banner_content {
+  color: #fff;
+}
+
+.conformal_banner_area .banner_inner .banner_content h5 {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  letter-spacing: 2.1px;
+}
+
+.conformal_banner_area .banner_inner .banner_content h3 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.conformal_banner_area .banner_inner .banner_content p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  max-width: 500px;
+  margin: auto;
+}
+
+.conformal_banner_area .banner_inner .banner_content .org_btn {
+  margin-right: 10px;
+  margin-top: 45px;
+}
+
+/* ============================================================================================ */
+
 
 /* Solder Banner Area css
 ============================================================================================ */
@@ -810,24 +1096,24 @@ button:focus {
 
 /* ============================================================================================ */
 
-/* Supply Banner Area css
+/* supplies Banner Area css
 ============================================================================================ */
 
-.supply_banner_area {
+.supplies_banner_area {
   position: relative;
   z-index: 1;
   min-height: 400px;
 }
 
-.supply_banner_area .banner_inner {
+.supplies_banner_area .banner_inner {
   position: relative;
   overflow: hidden;
   width: 100%;
   min-height: 400px;
 }
 
-.supply_banner_area .banner_inner .overlay {
-  background: url(../img/banner/supply.jpg) no-repeat scroll center center;
+.supplies_banner_area .banner_inner .overlay {
+  background: url(../img/banner/supplies.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -837,11 +1123,11 @@ button:focus {
   z-index: -1;
 }
 
-.supply_banner_area .banner_inner .banner_content {
+.supplies_banner_area .banner_inner .banner_content {
   color: #fff;
 }
 
-.supply_banner_area .banner_inner .banner_content h5 {
+.supplies_banner_area .banner_inner .banner_content h5 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -851,7 +1137,7 @@ button:focus {
   letter-spacing: 2.1px;
 }
 
-.supply_banner_area .banner_inner .banner_content h3 {
+.supplies_banner_area .banner_inner .banner_content h3 {
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -860,7 +1146,7 @@ button:focus {
   margin-bottom: 25px;
 }
 
-.supply_banner_area .banner_inner .banner_content p {
+.supplies_banner_area .banner_inner .banner_content p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
@@ -869,7 +1155,7 @@ button:focus {
   margin: auto;
 }
 
-.supply_banner_area .banner_inner .banner_content .org_btn {
+.supplies_banner_area .banner_inner .banner_content .org_btn {
   margin-right: 10px;
   margin-top: 45px;
 }
@@ -941,24 +1227,24 @@ button:focus {
   margin-top: 45px;
 }
 
-/* Machinery Banner Area css
+/* equipment Banner Area css
 ============================================================================================ */
 
-.machinery_banner_area {
+.equipment_banner_area {
   position: relative;
   z-index: 1;
   min-height: 400px;
 }
 
-.machinery_banner_area .banner_inner {
+.equipment_banner_area .banner_inner {
   position: relative;
   overflow: hidden;
   width: 100%;
   min-height: 400px;
 }
 
-.machinery_banner_area .banner_inner .overlay {
-  background: url(../img/banner/machinery.jpg) no-repeat scroll center center;
+.equipment_banner_area .banner_inner .overlay {
+  background: url(../img/banner/equipment.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -968,11 +1254,11 @@ button:focus {
   z-index: -1;
 }
 
-.machinery_banner_area .banner_inner .banner_content {
+.equipment_banner_area .banner_inner .banner_content {
   color: #fff;
 }
 
-.machinery_banner_area .banner_inner .banner_content h5 {
+.equipment_banner_area .banner_inner .banner_content h5 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 60px;
@@ -982,7 +1268,7 @@ button:focus {
   letter-spacing: 2.1px;
 }
 
-.machinery_banner_area .banner_inner .banner_content h3 {
+.equipment_banner_area .banner_inner .banner_content h3 {
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -991,7 +1277,7 @@ button:focus {
   margin-bottom: 25px;
 }
 
-.machinery_banner_area .banner_inner .banner_content p {
+.equipment_banner_area .banner_inner .banner_content p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
@@ -1000,7 +1286,7 @@ button:focus {
   margin: auto;
 }
 
-.machinery_banner_area .banner_inner .banner_content .org_btn {
+.equipment_banner_area .banner_inner .banner_content .org_btn {
   margin-right: 10px;
   margin-top: 45px;
 }
@@ -1203,135 +1489,6 @@ button:focus {
 /* ============================================================================================ */
 
 
-.blog_banner {
-  min-height: 780px;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  margin-bottom: 0px;
-}
-
-.blog_banner .banner_inner {
-  background: #04091e;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  min-height: 780px;
-  z-index: 1;
-}
-
-.blog_banner .banner_inner .overlay {
-  background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
-  opacity: .5;
-  height: 125%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: -1;
-}
-
-.blog_banner .banner_inner .blog_b_text {
-  max-width: 700px;
-  margin: auto;
-  color: #fff;
-  margin-top: 40px;
-}
-
-.blog_banner .banner_inner .blog_b_text h2 {
-  font-size: 60px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  line-height: 66px;
-  margin-bottom: 15px;
-}
-
-.blog_banner .banner_inner .blog_b_text p {
-  font-size: 16px;
-  margin-bottom: 35px;
-}
-
-.blog_banner .banner_inner .blog_b_text .white_bg_btn {
-  line-height: 42px;
-  padding: 0px 45px;
-}
-
-.banner_box {
-  max-width: 1620px;
-  margin: auto;
-}
-
-.banner_area {
-  position: relative;
-  z-index: 1;
-  min-height: 300px;
-}
-
-.banner_area .banner_inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  min-height: 300px;
-  background-image: -moz-linear-gradient(0deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -ms-linear-gradient(0deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  z-index: 1;
-}
-
-.banner_area .banner_inner .overlay {
-  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 125%;
-  bottom: 0;
-  z-index: -1;
-  opacity: 1;
-}
-
-.banner_area .banner_inner .banner_content h2 {
-  color: #fff;
-  font-size: 48px;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 0px;
-  font-weight: 500;
-}
-
-.banner_area .banner_inner .banner_content .page_link a {
-  font-size: 14px;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  margin-right: 32px;
-  position: relative;
-  text-transform: uppercase;
-}
-
-.banner_area .banner_inner .banner_content .page_link a:before {
-  content: "\f0da";
-  font: normal normal normal 14px/1 FontAwesome;
-  position: absolute;
-  right: -25px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.banner_area .banner_inner .banner_content .page_link a:last-child {
-  margin-right: 0px;
-}
-
-.banner_area .banner_inner .banner_content .page_link a:last-child:before {
-  display: none;
-}
-
-.banner_area .banner_inner .banner_content .page_link a:hover {
-  color: #8d83ff;
-}
-
-/* End Home Banner Area css
-============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Latest Blog Area css
@@ -2571,6 +2728,7 @@ button:focus {
 
 /* End Contact Success and error Area css
 ============================================================================================ */
+
 /* Home Contact Area css
 ============================================================================================ */
 .home_contact_area {
@@ -2578,19 +2736,19 @@ button:focus {
 }
 
 .home_contact_area .left_img {
-  width: calc(70% - 82px);
+  width: calc(50% - 82px);
   float: left;
   overflow: hidden;
 }
 
 .home_contact_area .h_right_form {
-  width: calc(30% + 82px);
+  width: calc(50% + 82px);
   float: right;
   overflow: hidden;
   padding-left: 95px;
-  background-image: -moz-linear-gradient(90deg, #6D6E71 0%, #000 100%);
-  background-image: -webkit-linear-gradient(90deg, #6D6E71 0%, #000 100%);
-  background-image: -ms-linear-gradient(90deg,  #6D6E71 0%, #000 100%);
+  background-image: -moz-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -webkit-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -ms-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
   min-height: 680px;
 }
 
@@ -2601,20 +2759,9 @@ button:focus {
 .h_form_inner h4 {
   color: #fff;
   font-size: 36px;
-  font-style: italic;
-  text-align: center;
   font-family: "Roboto", sans-serif;
-  padding-right: 100px;
-  padding-top: 20%;
-}
-.h_form_inner h5 {
-  color: rgba(255,255,255,.5);
-  font-size: 24px;
-  text-align: center;
-  font-weight: lighter;
-  font-family: "Roboto", sans-serif;
-  padding-right: 100px;
-  padding-top: 50px
+  padding-bottom: 70px;
+  padding-top: 120px;
 }
 
 .home_contact_form .form-group {
@@ -3063,7 +3210,7 @@ button:focus {
 }
 
 b, sup, sub, u, del {
-  color: #f8b600;
+  color: #000;
 }
 
 h1 {
@@ -4260,9 +4407,9 @@ h6 {
 .submit_btn {
   padding: 0px 40px;
   background-image: -webkit-gradient(linear, left top, right top, from(#73ca96), color-stop(51%, #98d370), to(#73ca96));
-  background-image: -webkit-linear-gradient(left, #6D6E71 0%, #000 100%);
-  background-image: -o-linear-gradient(left, #6D6E71 0%, #000 100%);
-  background-image: linear-gradient(to right, #6D6E71 0%, #000 100%);
+  background-image: -webkit-linear-gradient(left, #73ca96 0%, #98d370 51%, #73ca96 100%);
+  background-image: -o-linear-gradient(left, #73ca96 0%, #98d370 51%, #73ca96 100%);
+  background-image: linear-gradient(to right, #73ca96 0%, #98d370 51%, #73ca96 100%);
   background-size: 200% auto;
   z-index: 2;
   display: inline-block;
@@ -4413,7 +4560,9 @@ h6 {
 .offer_item .offer_text {
   text-align: center;
   border: 1px solid #eeeeee;
-  padding: 20px 0px 5px 0px;
+  padding: 50px 30px 50px 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .offer_item .offer_text h4 {
@@ -4428,9 +4577,9 @@ h6 {
 }
 
 .offer_item:hover .offer_text {
-  background-image: -moz-linear-gradient(90deg, #000019 0%, #000000 100%);
-  background-image: -webkit-linear-gradient(90deg, #000019 0%, #000000 100%);
-  background-image: -ms-linear-gradient(90deg, #000019 0%, #000000 100%);
+  background-image: -moz-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -webkit-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -ms-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
 }
 
 .offer_item:hover .offer_text h4 {
@@ -4475,9 +4624,9 @@ h6 {
   box-shadow: 0px 10px 30px 0px rgba(98, 71, 234, 0.1);
   border-radius: 5px;
   color: #fff;
-  background-image: -moz-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -webkit-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -ms-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
+  background-image: -moz-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -webkit-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -ms-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
 }
 
 .feature_item:hover h4 {
@@ -4521,7 +4670,7 @@ h6 {
 }
 
 .isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
-  color: #8d83ff;
+  color: #000;
 }
 
 .gallery_f_inner {
@@ -4546,9 +4695,9 @@ h6 {
   height: 100%;
   left: 0px;
   top: 0px;
-  /*background-image: -moz-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -webkit-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -ms-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);*/
+  background-image: -moz-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -webkit-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -ms-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
   position: absolute;
   opacity: 0;
   -webkit-transition: all 300ms ease;
@@ -4582,6 +4731,8 @@ h6 {
 }
 
 .h_gallery_item .g_item_text p {
+  font-size: 11px;
+  line-height: 12px;
   margin-bottom: 0px;
 }
 
@@ -4593,9 +4744,9 @@ h6 {
   opacity: 1;
 }
 
-.h_gallery_item:hover .g_item_text h4:hover {
+/*.h_gallery_item:hover .g_item_text h4:hover {
   color: #8d83ff;
-}
+}*/
 
 /* End Gallery Area css
 ============================================================================================ */
@@ -4708,9 +4859,9 @@ h6 {
 
 .team_item .team_img:before {
   content: "";
-  background-image: -moz-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -webkit-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
-  background-image: -ms-linear-gradient(90deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
+  background-image: -moz-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -webkit-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
+  background-image: -ms-linear-gradient(90deg, #17181e 0%, #2e3190 50%, #00aced 100%);
   position: absolute;
   left: 0px;
   top: 0px;
@@ -4787,13 +4938,13 @@ h6 {
   margin-bottom: 0px;
 }
 
-.team_item:hover .team_img:before {
+/*.team_item:hover .team_img:before {
   opacity: .90;
 }
 
 .team_item:hover .team_img .hover {
   opacity: 1;
-}
+}*/
 
 /* End Team Area css
 ============================================================================================ */
@@ -4861,10 +5012,8 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background-image: -moz-linear-gradient(90deg, #000019 0%, #000000 100%);
-  background-image: -webkit-linear-gradient(90deg, #000019 0%, #000000 100%);
-  background-image: -ms-linear-gradient(90deg, #000019 0%, #000000 100%);
-  padding-top: 120px;
+  background: #222222;
+  padding-top: 60px;
 }
 
 .single-footer-widget p {
@@ -4872,7 +5021,7 @@ h6 {
 }
 
 .single-footer-widget ul li a {
-  line-height: 25px;
+  line-height: 15px;
   display: inline-block;
   color: #777;
   -webkit-transition: all 0.3s linear;
@@ -4882,7 +5031,7 @@ h6 {
 }
 
 .single-footer-widget ul li a:hover {
-  color: #8d83ff;
+  color: #fff;
 }
 
 .single-footer-widget .instafeed {
@@ -4949,30 +5098,25 @@ h6 {
 
 .footer_title {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
   font-weight: 500;
   color: #fff;
-  margin-bottom: 28px;
 }
 
 .border_line {
   width: 100%;
   height: 1px;
   background: #333333;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .footer-bottom {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.footer-bottom .footer-text {
-  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-bottom .footer-text a {
-  color: #000;
+  color: #8d83ff;
 }
 
 .footer-bottom .footer-social {
@@ -4990,39 +5134,9 @@ h6 {
 }
 
 .footer-bottom .footer-social a:hover {
-  color: #000;
+  color: #fff;
 }
 
 /*---------------------------------------------------- */
 
-/*# sourceMappingURL=style.css.map */
-
-@media (min-width: 992px) {
-    .youtubevid {
-        width: 960px;
-        height: 540px; /* 720px */
-    }
-}
-
-@media (min-width: 767px) and (max-width: 991px) {
-    .youtubevid {
-        width: 640px;
-        height: 360px; /* 480px */
-    }
-}
-
-@media (min-width: 481px) and (max-width: 766px) {
-    .youtubevid {
-        width: 480px;
-        height: 270px; /* 320px */
-    }
-}
-
-@media (max-width: 480px) {
-    .youtubevid {
-        width: 300px;
-        height: 169px; /* 225px */
-    }
-}
-
-
+/*# sourceMappingURL=style.css.map 

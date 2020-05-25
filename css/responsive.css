@@ -1,30 +1,47 @@
 @media (max-width:1619px){
 	/* Main Menu Area css
 	============================================================================================ */
-   .header_area .navbar .search {
+    .header_area .navbar .search {
 		margin-left: 40px;
 	}
+
+	.header_area .navbar .nav .nav-item {
+		margin-right: 20px;
+		letter-spacing: -0.5px;
+		font-size: 11px;
+	}
+
 	/* End Main Menu Area css
 	============================================================================================ */
 }
 @media (max-width:1300px){
 
-			.home_banner_area .banner_inner .overlay {
-  background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
-}
+	.header_area .navbar .nav .nav-item .nav-link {
+	  font: 500 11px/100px "Roboto", sans-serif;
+	}
+
+	.home_banner_area .banner_inner .overlay {
+  		background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
 
 }
 @media (max-width:1199px){
 	/* Main Menu Area css
 	============================================================================================ */
 	.header_area .navbar .nav .nav-item {
-		margin-right: 28px;
+		margin-right: 15px;
+		letter-spacing: -0.5px;
+		font-size: 11px;
 	}
+
+
 	/* End Main Menu Area css
 	============================================================================================ */
 	/* Home Banner Area css
 	============================================================================================ */
-
+	.home_banner_area .banner_inner .overlay {
+  		background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
+  		background-size: 1199px;
+	}
 	.home_banner_area {
 		min-height: 700px;
 	}
@@ -93,7 +110,7 @@
 		display: block;
 		width: 25px;
 		height: 3px;
-		background: #222222;
+		background: #000;
 		margin: auto;
 		margin-bottom: 4px;
 		transition: all 400ms linear;
@@ -106,12 +123,6 @@
     .nav{
         padding: 0px 0px;
     }
-
-    .home_banner_area .banner_inner .overlay {
-	  background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
-	  background-size: 990px;
-
-	}
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 117px;
 	}
@@ -141,11 +152,18 @@
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 71px;
 	}
-	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-		line-height: 40px;
+	.header_area .navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+		line-height: 30px;
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
+	/* Banner Area
+	============================================================================================ */
+	.home_banner_area .banner_inner .overlay {
+  		background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
+  		background-size: 991px;
+  	}
+	
 	/* Blog page Area css
 	============================================================================================ */
 	.categories_post img{
@@ -236,9 +254,9 @@
 }
 @media (max-width:767px){
 	.home_banner_area .banner_inner .overlay {
-	  background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
-	  background-size: 797px;
-	}
+  		background: url(../img/banner/b-home-banner-1300.png) no-repeat scroll center center;
+  		background-size: 767px;
+  	}
 	.home_banner_area {
 		min-height: 500px;
 	}
@@ -305,6 +323,32 @@
 	
 }
 @media (max-width:575px){
+
+/* Industries name
+	============================================================================================ */
+
+	.team_item .team_name h4 {
+	  margin-bottom: 5px;
+	  color: #222222;
+	  font-family: "Roboto", sans-serif;
+	  font-weight: 500;
+	  font-size: 12px;
+	  -webkit-transition: all 300ms linear 0s;
+	  -o-transition: all 300ms linear 0s;
+	  transition: all 300ms linear 0s;
+	}
+
+	.team_item .team_name h4:hover {
+	  color: #8d83ff;
+	}
+
+	.team_item .team_name p {
+	  font-size: 10px;
+	  font-family: "Roboto", sans-serif;
+	  color: #777777;
+	  margin-bottom: 0px;
+	}
+
 	.home_banner_area .banner_inner .overlay {
 	  background: url(../img/banner/b-home-banner-H.png) no-repeat scroll center center;
 	  background-size: 575px;
@@ -321,10 +365,10 @@
 		font-size: 28px;
 	}
 	.home_banner_area {
-		min-height: 900px;
+		min-height: 500px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 900px;
+		min-height: 500px;
 	}
 	.blog_banner .banner_inner .blog_b_text {
 		margin-top: 0px;
@@ -439,10 +483,10 @@
 	/* End Blog Page Area css
 	============================================================================================ */
 	.home_banner_area {
-		min-height: 900px;
+		min-height: 400px;
 	}
 	.home_banner_area .banner_inner {
-		min-height: 900px;
+		min-height: 400px;
 	}
 	.counter_inner .counter_item {
 		flex: 0 0 100%;

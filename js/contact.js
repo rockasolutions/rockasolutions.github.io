@@ -20,38 +20,30 @@ $(document).ready(function(){
                     required: true,
                     minlength: 4
                 },
-                number: {
-                    required: false,
-                    minlength: 5
-                },
                 email: {
                     required: true,
                     email: true
                 },
                 message: {
                     required: true,
-                    minlength: 10
+                    minlength: 5
                 }
             },
             messages: {
                 name: {
-                    required: "Please let us know your name",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Please write your name",
+                    minlength: "Your name must consist of at least 2 characters"
                 },
                 subject: {
-                    required: "What do you need?",
-                    minlength: "your subject must consist of at least 4 characters"
-                },
-                number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "Please write a subject",
+                    minlength: "Your subject must consist of at least 4 characters"
                 },
                 email: {
-                    required: "Please let us know your email"
+                    required: "Please write your email so we can follow up with you"
                 },
                 message: {
-                    required: "Any specific requirements?",
-                    minlength: "thats all? really?"
+                    required: "How can we help you? Write it on the form so we can follow up with you",
+                    minlength: "The more details the better"
                 }
             },
             submitHandler: function(form) {
