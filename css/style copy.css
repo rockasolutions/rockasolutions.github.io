@@ -204,6 +204,12 @@ button:focus {
   position: relative;
 }
 
+.nav .navbar-nav .menu_nav2 .ml-auto{
+  float:center;
+  margin-top: 100px;
+
+}
+
 .header_area .navbar .nav .nav-item.submenu ul {
   border: none;
   padding: 0px;
