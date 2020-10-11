@@ -128,10 +128,10 @@
 	.header_area + section, .header_area + row, .header_area + div {
 		margin-top: 117px;
 	}
-    .header_top .nav{
+    .header_top .nav {
         padding: 0px;
     }
-    .header_area .navbar .nav .nav-item .nav-link{
+    .header_area .navbar .nav .nav-item .nav-link {
         line-height: 25px;
         margin-right: 0px;
         display: block;
@@ -148,7 +148,7 @@
 	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
 		padding: 0px 15px;
 	}
-	.header_area .navbar .nav .nav-item {
+	.header_area .navbar .nav .nav-item .container .row{
 		margin-right: 0px;
 	}
 	.header_area + section, .header_area + row, .header_area + div {
