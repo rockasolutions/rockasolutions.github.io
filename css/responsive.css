@@ -133,7 +133,7 @@
     }
     .header_area .navbar .nav .nav-item .nav-link {
         line-height: 36px;
-        margin-right: 0px;
+        margin-right: -5px;
         display: block;
 		border-bottom: 1px solid #ededed33;
 		border-radius: 0px;
